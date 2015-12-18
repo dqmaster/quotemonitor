@@ -1,6 +1,6 @@
 source 'https://supermarket.chef.io'
 
-cookbook 'influx', path: '~/ec2-user/chef/cookbooks/influx'
-cookbook 'supervisord', path: '~/ec2-user/chef/cookbooks/supervisord'
+cookbook 'influx', git: 'https://github.com/dqmaster/influx.git'
+cookbook 'supervisord', git: 'https://github.com/dqmaster/supervisord.git'
 metadata
 
