@@ -6,4 +6,5 @@ description 'Installs/Configures quotemonitor'
 long_description 'Installs/Configures quotemonitor'
 version '0.1.0'
 
-depends 'supervisord'
+depends 'influx'
+depends 'grafana'
